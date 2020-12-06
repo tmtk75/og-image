@@ -4,7 +4,9 @@
     "node": "12.x"
   },
   "scripts": {
-    "build": "tsc -p api/tsconfig.json && tsc -p web/tsconfig.json"
+    "build": "tsc -p api/tsconfig.json && tsc -p web/tsconfig.json",
+    "local": "vercel dev",
+    "deploy": "vercel"
   },
   "dependencies": {
     "chrome-aws-lambda": "2.1.1",
@@ -16,6 +18,7 @@
     "@types/marked": "0.7.3",
     "@types/puppeteer": "2.0.1",
     "@types/puppeteer-core": "2.0.0",
-    "typescript": "3.8.3"
+    "typescript": "3.8.3",
+    "vercel": "21.0.1"
   }
 }
