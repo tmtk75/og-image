@@ -149,37 +149,17 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
   {
-    text: "Vercel",
+    text: "Twitter",
     value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg",
-  },
-  {
-    text: "Next.js",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg",
-  },
-  {
-    text: "Hyper",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg",
+      "https://pbs.twimg.com/profile_images/378800000081818560/4272d82a8aee0cd806827f97faf7b91c_400x400.jpeg",
   },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
   {
-    text: "Vercel",
+    text: "Twitter",
     value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg",
-  },
-  {
-    text: "Next.js",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg",
-  },
-  {
-    text: "Hyper",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg",
+      "https://pbs.twimg.com/profile_images/378800000081818560/4272d82a8aee0cd806827f97faf7b91c_400x400.jpeg",
   },
 ];
 
